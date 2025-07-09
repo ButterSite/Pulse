@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "node": "^23.11.0",
+    "pg": "^8.14.1",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.15.3",
+    "@types/pg": "^8.11.14",
+    "typescript": "^5.8.3"
+  }
+}
