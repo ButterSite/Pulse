@@ -1,0 +1,99 @@
+
+
+.welcome-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}
+
+.welcome-container img {
+    width: 65%;
+}
+
+
+.welcome-text {
+    font-size: 82px;
+}
+
+
+.welcome-button {
+    width: 30%;
+    padding: 2%;
+    font-size: x-large;
+
+}
+
+.welcome-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.welcome-buttons-container p {
+  font-size: small;
+  margin-top: 2%;
+  margin-left: 14px;
+
+}
+
+/* .typewriter {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  } */
+
+
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+.typewriter { 
+	border-right: .1em solid var(--text-color);
+	width: 16.5em; 
+	width: 14.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+    animation: typing 2s steps(21, end),
+    blink-caret .5s step-end infinite alternate;;
+	-webkit-animation: typing 2s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+
+@media (max-width: 768px) {
+    .welcome-container {
+      font-size: 24px;
+      flex-direction: column;
+    }
+
+    .welcome-text {
+    font-size: 32px;
+}
+
+    .welcome-container img {
+    width: 80%;
+}
+
+  .welcome-button {
+    width: 100%;
+    margin: 5% 0% 2% 0%;
+
+}
+}

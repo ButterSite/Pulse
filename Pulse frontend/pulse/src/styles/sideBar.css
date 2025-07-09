@@ -1,0 +1,14 @@
+
+
+.side-bar {
+   width: 100%;
+   font-size: large;
+
+}
+
+.side-bar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
